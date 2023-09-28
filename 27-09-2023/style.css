@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.conteiner{
+    display: flex;
+    flex-direction: row;
+}
+
+.esquerda {
+    width: 35%;
+    background-color: #CCCCCC;
+    padding-bottom: 455px;
+}
+
+.formulario{
+    text-align: center;
+}
+
+
+
+input[type=text] {
+    padding: 8px;
+    border-radius: 4px;
+    border-color: #D6D6D6;
+    border: none;
+    width: 250px;
+}
+
+
+
+
+strong {
+    margin-right: 210px;
+}
+
+.mensagem{
+    text-align: center;
+    margin-top: 30%;
+    margin-bottom: 5%;
+}
+
+
+.direita {
+    width: 65%;
+    background-color: white;
+}
+
+.ForgetPassword { 
+    margin-left: 140px;
+    margin-bottom: 5px;
+}
+
+.buttonLogin {
+    margin-top: 20px;
+    background-color: #2E79E8;
+    width: 268px;
+    padding: 5px;
+    border-radius: 6px;
+    border-color: none;
+    text-decoration: none;
+    border: none;
+    color: white;
+
+}
+
+.buttonCadastrar {
+    margin-top: 40px;
+    background-color: #CCCCCC;
+    width: 268px;
+    padding: 5px;
+    border-radius: 6px;
+    border-color: none;
+    text-decoration: none;
+    color: black;
+
+
+}
