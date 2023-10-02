@@ -106,3 +106,114 @@
     color: white;
     padding: 10px;
 }
+
+.postes{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 150px;
+    background-color: white;
+    padding: 10px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 25%;
+    grid-template-areas: 
+    'topico1 topico2 topico3 topico4'
+    'imagem imagem imagem imagem'
+    'texto texto texto texto'
+    'link link link link'
+    ;
+}
+
+.topico1{
+    border: none;
+    background-color: #2196F3;
+    padding: 5px;
+    width: 80px;
+    color: white;
+    text-align: center;
+}
+
+.topico2{
+    border: none;
+    background-color: #E91E63;
+    padding: 5px;
+    width: 80px;
+    color: white;
+    text-align: center;
+}
+
+.topico3{
+    border: none;
+    background-color: #4CAF50;
+    padding: 5px;
+    width: 160px;
+    color: white;
+    text-align: center;
+}
+
+.topico4{
+    border: none;
+    background-color: #FF9800;
+    padding: 5px;
+    width: 80px;
+    color: white;
+    text-align: center;
+}
+
+.imagem{
+    height: 224px;
+}
+
+.texto{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    border-color: silver;
+    border-style: solid;
+    border-bottom: 0px;
+    border-top: 0;
+}
+
+.link{
+    margin: 0;
+    text-align: center;
+    padding: 10px;
+    border-color: silver;
+    border-style: solid;
+}
+
+
+.parteBaixo{
+    margin-top: 150px;
+    background-color: #E53935;
+    padding: 10px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 33%;
+    grid-template-areas: 
+    'topico topico topico'
+    'contentFooter contentFooter contentFooter'
+    ;
+}
+
+
+.topico{
+    padding-top: 20px;
+    margin-left: 40%;
+    margin-right: 40%;
+    color: white;
+    font-size: 22px;
+    text-align: center;
+}
+
+
+.contentFooter{
+    padding-top: 20px;
+    margin-left: 40%;
+    margin-right: 40%;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
