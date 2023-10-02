@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body{
+    background-image: url('teste6.jpg');
+}
+
 .navbar{
     background-color: #FFCDD2;
     padding: 10px;
