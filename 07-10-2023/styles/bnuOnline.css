@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-setting{
+    background-color: #FFCDD2;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+.brandImg{
+    height: 6rem;
+   
+}
+
+.brand {
+    width: 50%;
+    text-align: center;
+    list-style-type: none;
+}
+
+
+.link{
+    display: inline-block;
+    padding: 1rem;
+    font-weight: normal;
+}
+
+.links{
+    width: 50%;
+}
+
+.main{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 15rem;
+    background-color: white;
+    padding: 10px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 30%;
+    grid-template-areas: 
+    'content content content'
+    'detalhe1 detalhe1 detalhe1'
+    'detalhe2 detalhe2 detalhe2'
+    'detalhe3 detalhe3 detalhe3'
+    ;
+
+}
+
+.bigBox1-color{
+    background-color: #01579B;
+}
+
+.bigBox2-color{
+    background-color: #E65100;
+}
+
+.bigBox3-color{
+    background-color: #004D40;
+}
+
+.bigBox{
+    text-align: center;
+    color: white;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    font-size: 30px;
+}
+
+.smallBox1-color{
+    background-color: #01579B;
+}
+
+.smallBox2-color{
+    background-color: #E65100;
+}
+
+.smallBox3-color{
+    background-color: #004D40;
+}
+
+.smallBox{
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+
+
+.smallBoxYellow{
+    background-color: #FF9800;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+.smallBoxOrange{
+    background-color: #4CAF50;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+.news{
+  
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.teste{
+    width: 25%;
+    display: inline-block;
+}
+
+
+
+.parteBaixo{
+    margin-top: 150px;
+    background-color: #E53935;
+    padding: 10px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 33%;
+    grid-template-areas: 
+    'topico topico topico'
+    'contentFooter contentFooter contentFooter'
+    ;
+}
+
+
+.topico{
+    padding-top: 20px;
+    margin-left: 40%;
+    margin-right: 40%;
+    color: white;
+    font-size: 22px;
+    text-align: center;
+}
+
+
+.contentFooter{
+    padding-top: 20px;
+    margin-left: 40%;
+    margin-right: 40%;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
